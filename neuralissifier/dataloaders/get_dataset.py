@@ -1,9 +1,9 @@
-from dynamic_brainage.dataloaders.fake_fnc import FakeFNC
+from neuralissifier.dataloaders.fake_fnc import FakeFNC
 # from dataloaders.load_dev_data import UKBData
 # from dataloaders.load_UKB_HCP1200 import UKBHCP1200Data
 # from dataloaders.cadasil import CadasilData
-from dynamic_brainage.dataloaders.CSVDataset import CSVDataset
-from dynamic_brainage.dataloaders.CSVDataset_preload import RAMDataset
+from neuralissifier.dataloaders.CSVDataset import CSVDataset
+from neuralissifier.dataloaders.CSVDataset_preload import RAMDataset
 
 
 def get_ramset(key, *args, **kwargs):
